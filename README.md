@@ -1,11 +1,11 @@
-#Examen Parcial
+# Examen Parcial
 
 
-##Ejercicio 1:
+## Ejercicio 1:
 
 Desarrollaremos el proyecto por TDD y RGR.
 
-###Sprint 1
+### Sprint 1
 
 En el Sprint 1 creamos las clases Question y Quiz:
 
@@ -20,7 +20,7 @@ public class Question {
 
     private String[] opciones ; // Array que contiene las opciones
 
-    private String respuesta; // Contiene la respuesta correcta
+    private int respuesta; // Contiene la respuesta correcta
 
 
 	//Funciones getters
@@ -87,6 +87,16 @@ void constructorShouldSetPregunta1(){  //Verifica que la pregunta se haya coloca
 
 }
 
+@Test
+void constructorShouldSetPregunta2(){//Verifica que la pregunta 2 se haya colocado correctamente
+
+    Question question = new Question(2);
+
+    assertThat(question.getPregunta())
+            .as("Pregunta 2")
+            .isEqualTo("¿Cuál es la capital de Perú?");
+}
+
 /*
 @Test
 void constructorShouldSetOpciones(){
@@ -101,5 +111,20 @@ void constructorShouldSetRespuesta(){
 */
 
 }
+
+```
+
+Refactorizamos e implementamos test parametrizados:
+```
+	@ParameterizedTest
+    @ValueSource(ints = {4,5,6,7,8,9,10})
+    void constructorShouldSetPreguntaN(int nPregunta){//Verifica que la pregunta n se haya colocado correctamente
+
+        Question question = new Question(nPregunta);
+
+        assertThat(question.getPregunta())
+                .as("Pregunta "+nPregunta)
+                .isEqualTo("Esta es la pregunta "+nPregunta);
+    }
 
 ```

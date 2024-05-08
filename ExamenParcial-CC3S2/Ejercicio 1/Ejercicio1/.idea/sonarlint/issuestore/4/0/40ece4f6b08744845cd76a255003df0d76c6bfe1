@@ -1,3 +1,13 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒÈ…Ü8˜´Âõ1J$3b4696d9-e923-4a44-9a30-81bf1b247e24
-]	java:S125"<This block of commented-out lines of code should be removed.(ß£½…úÿÿÿÿ8úÍ Ãõ1
+˜
+java:S1192-"UDefine a constant instead of duplicating this literal "Esta es la pregunta " 8 times.(ş¸ãá8‚Ã‹Æõ1J$6aa1d4f5-26d4-4f52-87e0-6b83ebda2516
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒÈ…Ü8†Ã‹Æõ1J$84f0b827-a37e-46c1-b761-6b881d32c574
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ß£½…úÿÿÿÿ8”Ã‹Æõ1J$bc798623-c65e-4081-aabb-7bf623922eab
+Š
+java:S1871>"HThis case's code block is the same as the block for the case on line 44.(ÒñŠ{8˜Ã‹Æõ1J$8c780fc5-e648-4091-92a7-3c9a5a6f9085
+
+java:S1871F"HThis case's code block is the same as the block for the case on line 54.(òï±êÿÿÿÿÿ8˜Ã‹Æõ1J$e7f4c8f0-07c1-43a4-954a-c360c48e497a
+
+java:S1871B"HThis case's code block is the same as the block for the case on line 49.(˜Çúÿÿÿÿ8˜Ã‹Æõ1J$701f3392-6bf5-436c-978b-9988be643eda
+
+java:S1871J"HThis case's code block is the same as the block for the case on line 58.(©Ğ‘şÿÿÿÿ8˜Ã‹Æõ1J$e986649e-9d45-46fa-83b0-dd899bdc479c

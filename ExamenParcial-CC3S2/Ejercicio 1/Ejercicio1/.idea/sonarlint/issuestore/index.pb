@@ -9,3 +9,5 @@ O
 src/main/java/Sprint1/Quiz.java,4\8\488f4946cf291f810a48eb86e9852462e7ccf4dd
 O
 src/test/java/QuestionTest.java,2\f\2fe50b307aa4be217dc93e69eaed333c0a3666ae
+K
+src/test/java/QuizTest.java,e\3\e33f9a88b2204bdc221be97c38889e3bdda12b74
