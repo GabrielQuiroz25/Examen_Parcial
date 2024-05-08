@@ -2,12 +2,12 @@ package Sprint1;
 
 public class Question {
 
-    private String nroPregunta;
-    private String pregunta;
+    //private String nroPregunta;
+    private String pregunta; // Contenido de la pregunta
 
-    private String[] opciones ;
+    private String[] opciones ; // Array que contiene las opciones
 
-    private String respuesta;
+    private String respuesta; // Contiene la respuesta correcta
 
 
     public String getPregunta() {
